@@ -1,0 +1,8 @@
+advertisers_platform.py
+setup.py
+project_xxx.egg-info/PKG-INFO
+project_xxx.egg-info/SOURCES.txt
+project_xxx.egg-info/dependency_links.txt
+project_xxx.egg-info/namespace_packages.txt
+project_xxx.egg-info/top_level.txt
+project_xxx.egg-info/zip-safe

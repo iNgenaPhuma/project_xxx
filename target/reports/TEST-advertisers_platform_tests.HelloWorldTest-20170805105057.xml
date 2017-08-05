@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="advertisers_platform_tests.HelloWorldTest-20170805105057" skipped="0" tests="1" time="0.000">
+	<testcase classname="advertisers_platform_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.000">
+		<failure message="
+Wanted but not invoked:  write('Hello world of Python\n')
+Instead got:             []" type="VerificationError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/siya/Developers_Ground/project_xxx/src/unittest/python/advertisers_platform_tests.py", line 12, in test_should_issue_hello_world_message
+    verify(out).write("Hello world of Python\n")
+  File "/usr/local/lib/python2.7/dist-packages/mockito/invocation.py", line 218, in __call__
+    self.verification.verify(self, len(matched_invocations))
+  File "/usr/local/lib/python2.7/dist-packages/mockito/verification.py", line 83, in verify
+    str(list(reversed(invocation.mock.invocations)))))
+VerificationError: 
+Wanted but not invoked:  write('Hello world of Python\n')
+Instead got:             []
+
+Stdout:
+Heyn there
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[Heyn there
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
